@@ -68,8 +68,8 @@
         // The default runtime will be used when you open standalone Java files.
         "java.configuration.runtimes": [
           {
-            "name": "JavaSE-21",
-            "path": "/usr/lib/jvm/21.0",
+            "name": "JavaSE-17",
+            "path": "/usr/lib/jvm/17.0",
             "default": true
           }
         ],
@@ -79,7 +79,7 @@
         "java.import.generatesMetadataFilesAtProjectRoot": true,
         // The JVM to be used by the Java Language Server for RedHat extension
         // Used by default to cmpile the project if no java.configuration.runtimes is provided.
-        "java.jdt.ls.java.home": "/usr/lib/jvm/21.0",
+        "java.jdt.ls.java.home": "/usr/lib/jvm/17.0",
         ////////////////////////////////////////////////////////////////
         // Maven for Java (https://github.com/Microsoft/vscode-maven) //
         ////////////////////////////////////////////////////////////////
@@ -89,7 +89,7 @@
         // Spring Boot Tools (https://github.com/spring-projects/sts4) //
         /////////////////////////////////////////////////////////////////
         // The JVM to be used by the Java Language Server for sts4 extensions
-        "spring-boot.ls.java.home": "/usr/lib/jvm/21.0",
+        "spring-boot.ls.java.home": "/usr/lib/jvm/17.0",
         ////////////
         // Editor //
         ////////////
