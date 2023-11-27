@@ -15,7 +15,7 @@
   <name>layertools</name>
   <description>Test layertools</description>
   <properties>
-    <java.version>21</java.version>
+    <java.version>17</java.version>
     <snowflake-jdbc.version>3.14.3</snowflake-jdbc.version>
   </properties>
   <dependencies>

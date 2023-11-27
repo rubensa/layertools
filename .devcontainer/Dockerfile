@@ -3,7 +3,7 @@ FROM rubensa/ubuntu-tini-dev as base
 # Architecture component of TARGETPLATFORM (platform of the build result)
 ARG TARGETARCH
 # Install Java
-ARG JAVA_VERSION=21.0
+ARG JAVA_VERSION=17.0
 RUN <<EOT
 #!/bin/bash -l
 echo "# Installing Java..."
